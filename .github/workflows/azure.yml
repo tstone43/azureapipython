@@ -1,10 +1,10 @@
 name: AzureAPI
 
 env:
-  container_registry: azureapiflask.azurecr.io
-  container_registry_name: azureapiflask.azurecr.io/azureapi/flask:latest
-  resourceGroup: AZ-400
-  appName: azureapiflask1992
+  container_registry: tcstonepython.azurecr.io
+  container_registry_name: tcstonepython.azurecr.io/azureapi/flask:latest
+  resourceGroup: python-apps
+  appName: azureapiflasktcstone
 
 on:
   push:
